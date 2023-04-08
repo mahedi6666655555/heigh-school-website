@@ -16,7 +16,7 @@ const Home = () => {
     useEffect(() => {
 
 
-        let url = `Fake.json`
+        let url = `https://raw.githubusercontent.com/mahedi6666655555/heigh-school-website/main/src/components/Home.jsx/Fake.json`
         fetch(url)
             .then(res => res.json())
             .then(data => setApi(data))
@@ -44,14 +44,17 @@ const Home = () => {
 
                 </Hedding>
             </div>
-            <div>
-                <Curses
+            <div className='grid grid-cols-3 w-ful h-screen  gap-5 '>
+                {
+                    set.map(res =>
+                        <Curses
 
-                    key={set.id}
-                    set={set}
-                >
+                            key={res.id}
+                            set={res}
+                        >
 
-                </Curses>
+                        </Curses>)
+                }
             </div>
         </div>
     );
