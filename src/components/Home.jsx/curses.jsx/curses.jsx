@@ -9,7 +9,7 @@ const Curses = ({ set }) => {
         <div className=''>
             <div className='w-[400px] mx-auto rounded-lg relative shadow-lg border-2 mt-10 h-[500px]'>
                 <div>
-                    <img src="" alt="" />
+                    <img src={img} alt="" />
                 </div>
                 <div>
                     <h5></h5>
