@@ -16,7 +16,7 @@ const Home = () => {
     useEffect(() => {
 
 
-        let url = ``
+        let url = `Fake.json`
         fetch(url)
             .then(res => res.json())
             .then(data => setApi(data))

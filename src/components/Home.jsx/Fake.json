@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "index": 0,
+      "name": "John Doe",
+      "roll": "S001",
+      "class": "10th Grade",
+      "subject": "Math",
+      "age": 16,
+      "img": "https://example.com/student1.jpg"
+    },
+    {
+      "id": 2,
+      "index": 1,
+      "name": "Jane Smith",
+      "roll": "S002",
+      "class": "9th Grade",
+      "subject": "English",
+      "age": 15,
+      "img": "https://example.com/student2.jpg"
+    },
+    {
+      "id": 3,
+      "index": 2,
+      "name": "Bob Johnson",
+      "roll": "S003",
+      "class": "12th Grade",
+      "subject": "Science",
+      "age": 18,
+      "img": "https://example.com/student3.jpg"
+    },
+    {
+      "id": 4,
+      "index": 3,
+      "name": "Sara Lee",
+      "roll": "S004",
+      "class": "11th Grade",
+      "subject": "History",
+      "age": 17,
+      "img": "https://example.com/student4.jpg"
+    },
+    {
+      "id": 5,
+      "index": 4,
+      "name": "Mike Brown",
+      "roll": "S005",
+      "class": "8th Grade",
+      "subject": "Social Studies",
+      "age": 13,
+      "img": "https://example.com/student5.jpg"
+    },
+    {
+      "id": 6,
+      "index": 5,
+      "name": "Emily Wilson",
+      "roll": "S006",
+      "class": "7th Grade",
+      "subject": "Art",
+      "age": 12,
+      "img": "https://example.com/student6.jpg"
+    }
+  ]
+  
