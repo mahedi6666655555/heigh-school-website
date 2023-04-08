@@ -28,13 +28,16 @@ const Home = () => {
 
     return (
         <div>
-            <div className='banner-c flex items-center mt-5 '>
-                <div className=' w-1/2 ml-20'>
+            <div className='banner-c  lg:flex items-center mt-5 '>
+                <div className=' md:w-1/2 md:ml-20'>
                     <h1 className='text-7xl font-bold text-gray-700'>Hi THer`e</h1>
                     <p className=' text-gray-900 py-5'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime repudiandae quidem sequi veniam cupiditate dignissimos praesentium doloribus culpa perferendis, nulla cum recusandae, temporibus aspernatur iste odit accusantium aliquid. Labore voluptate consequuntur quas placeat. Ipsam officia earum architecto deleniti. Architecto fuga recusandae eum aperiam vel accusamus!</p>
-                    <button className='px-7 py-3 bg-gray-700 rounded-lg text-white'> read more </button>
+                    <div className=''>
+                        <button className='px-7  py-3 bg-gray-700 rounded-lg text-white'> read more </button>
+
+                    </div>
                 </div>
-                <div className='w-1/2'>
+                <div className='md:w-1/2'>
                     <Lottie loop={true} animationData={aname} />
                 </div>
             </div>
@@ -44,7 +47,9 @@ const Home = () => {
 
                 </Hedding>
             </div>
-            <div className='grid grid-cols-3 w-ful h-screen  gap-5 '>
+            <h1 className='pt-10  font-bold text-4xl text-gray-700  text-center'>Our Reputed Techars</h1>
+
+            <div className='grid md:grid-cols-3 w-ful h-screen  gap-5 '>
                 {
                     set.map(res =>
                         <Curses

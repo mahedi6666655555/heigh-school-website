@@ -7,14 +7,18 @@ const Curses = ({ set }) => {
 
     return (
         <div className=''>
+
+
             <div className='w-[400px] mx-auto rounded-lg relative shadow-lg border-2 mt-10 h-[500px]'>
                 <div>
                     <img src={img} alt="" />
                 </div>
-                <div>
-                    <h5></h5>
-                    <p></p>
-                    <p></p>
+                <div className='pl-5 pt-5'>
+                    <h5 className='text-lg font bold  pb-2'>name: {name}</h5>
+                    <p className='text-lg font bold  pb-2'>age: {age}</p>
+                    <p className='text-lg font bold  pb-2'>subject: {subject}</p>
+
+
 
                 </div>
                 <div>
